@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "SmartAttend AI",
+    "slug": "smartattend-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "permissions": ["CAMERA"],
+      "package": "com.smartattend.school"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SmartAttend uses the camera to capture attendance images for authorized sessions."
+        }
+      ]
+    ]
+  }
+}

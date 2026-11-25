@@ -1,0 +1,5 @@
+# Optional production recognition runtime. InsightFace builds native extensions on
+# Windows and may require Microsoft C++ Build Tools; see README setup notes.
+-r requirements.txt
+insightface>=0.7.3,<1
+onnxruntime>=1.19,<2
